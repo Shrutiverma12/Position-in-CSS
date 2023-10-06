@@ -1,0 +1,5 @@
+Difference between absolue and relative
+The “position” property with the value “absolute” changes the element’s position relative to its positioned parent div. If the position of the parent element is not set relative, then the div will move relative to the web page’s body. Moreover, other elements will fill the space left by the element.
+
+When you set the “position” property’s value as “relative”, it moves relative to its normal position. Its position also depends on the values as the side properties. However, other elements will not be resized to fill the gap left behind by the element.
+“position” property value is set as “relative”, which positions the element relative to its normal position. It is then paired with the top, right, left, and bottom properties to set the final location.
